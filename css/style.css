@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Roboto, Helvetica Neue, sans-serif ;
+    font-family: 'Roboto', Helvetica Neue, sans-serif ;
 }
 
 body {
@@ -52,7 +54,7 @@ body {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: small;
+    font-size: 14px;
 }
 
 .form-row input {
@@ -89,8 +91,17 @@ body {
     text-decoration: underline;
 }
 
+.check span {
+    font-size: 12px;
+}
+
 .form-btn input {
+    margin-top: 20px;
     width: 100%;
     height: 35px;
     background-color: #6f42c1;
+    color: #fcfdfe;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
 }
