@@ -1,0 +1,15 @@
+body.grad {
+    background-image: linear-gradient(to bottom right, #1f1f1f, #1b3c61, #181818);
+    color: #f6f8fb;
+}
+
+.title {
+    color: #f6f8fb;
+}
+.form-wrapper.dark {
+    background-color: #18181844;
+    border: 1px solid #182433;
+    box-shadow: inset 0 0 2px 0 #182433,
+                    0 0 3px 3px #182433,
+                    0 0 4px 2px #f6f8fb;
+}
