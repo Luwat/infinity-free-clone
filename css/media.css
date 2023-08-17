@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .container-flex {
+        width: 100%;
+    }
+
+    .form-wrapper {
+        width: 350px;
+        height: 280px;
+    }
+
+    .form-row, .check, .form-btn {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .form-head {
+        margin: 15px;
+    }
+
+    .form-row input {
+        height: 25px;
+    }
+
+    .form-btn input {
+        margin-top: 15px;
+        height: 25px;
+
+    }
+
+    .mode {
+        right: 3%;
+        bottom: 3%;
+        width: 40px;
+        height: 40px;
+        font-size: xx-small;
+        /* font-weight: 100; */
+    }
+}
